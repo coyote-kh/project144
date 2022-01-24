@@ -1,0 +1,6 @@
+from{
+        box-shadow: 1px 1px 38px blue;
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(211, 107, 245);   
+    }

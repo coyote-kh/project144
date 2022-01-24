@@ -1,0 +1,39 @@
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{
+        box-shadow: 1px 1px 38px red;
+    }
+    16.6666666667%{
+        box-shadow: 1px 1px 38px orange;
+    }
+    33.3333333333%{
+        box-shadow: 1px 1px 38px rgb(255, 247, 0);
+    }
+    50%{
+        box-shadow: 1px 1px 38px green;
+    }
+    
+    66.6666666667%{
+        box-shadow: 1px 1px 38px blue;   
+    }
+    
+    83.3333333333%{
+        box-shadow: 1px 1px 38px rgb(211, 107, 245);   
+    }
+    
+    100%{
+        box-shadow: 1px 1px 38px pink;   
+    }
+}
+
+.btn-info{
+    font-size: x-large;
+    height: 50px;
+    width: 203px;
+}
+
